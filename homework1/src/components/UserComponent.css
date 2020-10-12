@@ -1,0 +1,31 @@
+.input {
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.input:hover {
+  cursor: pointer;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #58277d !important;
+}
+
+.output-container {
+  position: absolute;
+  top: 60%;
+  transform: translate(-50%, -60%);
+  left: 50%;
+  color: #58277d;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.error-message {
+  color: red !important;
+}
